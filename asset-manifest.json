@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/canonical-task/static/css/main.d94fc47f.css",
+    "main.js": "/canonical-task/static/js/main.c9038df1.js",
+    "index.html": "/canonical-task/index.html",
+    "main.d94fc47f.css.map": "/canonical-task/static/css/main.d94fc47f.css.map",
+    "main.c9038df1.js.map": "/canonical-task/static/js/main.c9038df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d94fc47f.css",
+    "static/js/main.c9038df1.js"
+  ]
+}
