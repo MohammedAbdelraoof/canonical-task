@@ -1,5 +1,5 @@
-import React from "react";
-import IBlogData from "../../Interfaces/IBlogData";
+import React from "react"
+import IBlogData from "../../Interfaces/IBlogData"
 
 export type blogProps = {
   blog: IBlogData
@@ -17,7 +17,7 @@ const BlogsView = ({ blog }: blogProps) => {
         <hr />
         <div className="p-card__content">
           <a href={blog.link}>
-            <img className="p-card__image" src={blog.img} alt="" />
+            <img className="p-card__image" src={blog.img} alt={blog.title} />
           </a>
           <h4>
             <a data-cy="title" href={blog.link}>
@@ -26,11 +26,9 @@ const BlogsView = ({ blog }: blogProps) => {
           </h4>
           <p>
             <em>
-              {" "}
-              By <a href={blog.authorLink}>{blog.author}</a> on{" "}
-              {blog.date.getDate()}{" "}
-              {blog.date.toLocaleString("en-US", { month: "long" })}{" "}
-              {blog.date.getFullYear()}{" "}
+              {" By "}
+              <a href={blog.authorLink}>{blog.author}</a>
+              {` on ${blog.date.getDate()} ${blog.date.toLocaleString("en-US", { month: "long" })} ${blog.date.getFullYear()} `}
             </em>
           </p>
         </div>
@@ -40,7 +38,7 @@ const BlogsView = ({ blog }: blogProps) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BlogsView;
+export default BlogsView
