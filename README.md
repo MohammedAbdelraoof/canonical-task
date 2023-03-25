@@ -1,19 +1,20 @@
 # Blog-Posts React App
 
-APP URL ==>
+Application URL ==>
 
 ## How to run
 
-You can use the deployed page from the above URL or follow the steps to run it on local host:-
+You can use the deployed page from the above URL or follow these steps to run it on your local host:-
 
 
 
-### `npm install`
+### `1- npm install`
 
 To install required packages from package.json file 
 
-### `npm start`
+### `2- npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 
