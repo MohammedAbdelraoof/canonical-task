@@ -1,6 +1,6 @@
 # Blog-Posts React App
 
-Application URL ==>
+Application URL ==> https://mohammedabdelraoof.github.io/canonical-task/
 
 ## How to run
 
