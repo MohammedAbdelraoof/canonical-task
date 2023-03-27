@@ -30,7 +30,10 @@ describe("Posts API response & data validation", () => {
   })
 
   it("non empty data api Data", () => {
-    cy.wait("@getPosts").its("response.body").should("not.have.length", 0)
-    cy.wait("@getPosts").its("response.body").should("have.length", 2)
+    cy.wait("@getPosts").then((_interception) => {
+      console.log(_interception)
+      expect(_interception?.response?.body?.length).to.not.equal(0)
+      expect(_interception?.response?.body?.length).to.equals(2)
+    })
   })
 })

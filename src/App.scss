@@ -1,46 +1,46 @@
-@import './../node_modules/vanilla-framework';
+@import "./../node_modules/vanilla-framework";
 // @include vanilla;
 @include vf-base;
 @include vf-p-grid;
 @include vf-p-card;
 @include vf-u-equal-height;
 .App {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 hr {
-    width: 95%;
-    border-top: 2px dotted rgba(0, 0, 0, 0.1);
-    background-color: white;
-    margin-bottom: 0px;
+  width: 95%;
+  border-top: 2px dotted rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-bottom: 0px;
 }
 
 a:link {
-    color: rgba(14, 126, 182, 1);
+  color: rgba(14, 126, 182, 1);
 }
 
 .p-card {
-    position: relative;
-    padding: 0;
-    border: 0px;
-    box-shadow: 0 0 8px 1px rgb(209 206 206);
+  position: relative;
+  padding: 0;
+  border: 0px;
+  box-shadow: 0 0 8px 1px rgb(209 206 206);
 }
 
 .p-card__content {
-    padding: 8px 16px 8px;
-    height: calc(100% - 125px)
+  padding: 8px 16px 8px;
+  height: calc(100% - 125px);
 }
 
 .p-card__header {
-    border: 0px;
-    padding: 16px 16px 12px;
-    border-radius: 2px;
-    border-top: 3px solid #a87ca0;
+  border: 0px;
+  padding: 16px 16px 12px;
+  border-radius: 2px;
+  border-top: 3px solid #a87ca0;
 }
 
 .p-card__footer {
-    width: 100%;
-    p {
-        padding: 15px;
-    }
+  width: 100%;
+  p {
+    padding: 15px;
+  }
 }
