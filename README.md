@@ -13,4 +13,4 @@ To install required packages from package.json file
 ### `2- npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:8000) to view it in the browser.
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
